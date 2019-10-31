@@ -1,0 +1,39 @@
+###
+# My aliases
+###
+alias zshconfig="nvim ~/.zshrc"
+alias ohmyzsh="nvim ~/.oh-my-zshi"
+alias l="ls -l"
+alias ll="ls -la"
+alias wget="wget -c"
+alias c="clear"
+alias gs="git status"
+alias vim="nvim"
+alias connectpi="sudo sshfs -o allow_other,defer_permissions pi@raspi:/ /Volumes/Pi"
+alias cmi="./configure && make && make install"
+alias gruby="ruby -I lib"
+#alias python="python3"
+#alias pip="pip3"
+
+###
+# Suggestions from digitalocean.com/community/tutorials/an-introduction-to-useful-bash-aliases-and-functions
+###
+alias mkdir="mkdir -pv"
+#alias df="df -Tha --total"
+#alias du="du -ach | sort -h"
+#alias free="free -mt"
+alias ps="ps aux"
+alias top="htop"
+alias myip="curl http://ipecho.net/plain; echo"
+alias du="ncdu"
+
+###
+# FLAC -> ALAC
+###
+alias flac2alac='for name in **/*.flac; do ffmpeg -nostdin -i "$name" -c:a alac -c:v copy "${name%.*}.m4a"; done'
+
+# Mount RPI SD CARD
+alias mountrpi='sudo ext4fuse /dev/disk2s2 /Volumes/rpi -o allow_other'
+
+alias react-native-run='react-native run-ios --simulator="iPhone Xʀ"'
+alias arduino="/Applications/Arduino.app/Contents/MacOS/Arduino"

@@ -1,0 +1,22 @@
+#If you come from bash you might have to change your $PATH.
+#export PATH=$HOME/bin:/usr/local/sbin:/usr/local/bin:$PATH
+#export PATH="/usr/local/opt/sqlite/bin:$PATH"
+#export PATH="/usr/local/opt/icu4c/bin:$PATH"
+#export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+#export PATH="/usr/local/opt/openssl/bin:$PATH"
+#export LDFLAGS="-L/usr/local/opt/icu4c/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl/lib"
+#export CPPFLAGS="-I/usr/local/opt/icu4c/include -I/usr/local/opt/zlib/include -I/usr/local/opt/openssl/include"
+#export PKG_CONFIG_PATH="/usr/local/opt/zlib/lib/pkgconfig"
+#export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
+#export LOCAL_IP=`ipconfig getifaddr en0`
+
+#ENV variables
+#export REMOTE_RADARR_URI="http://fr24.myseedbox.site:31006"
+#export REMOTE_RADARR_API_KEY="a6411e6a587e4f13a6c7a50aef4fa9de"
+#export LOCAL_RADARR_URI="http://localhost:7878"
+#export LOCAL_RADARR_API_KEY="ea6cdfb0fbdf4132b2d6a22210fcfe78"
+
+#export REMOTE_SONARR_URI="http://fr24.myseedbox.site:17006"
+#export REMOTE_SONARR_API_KEY="b9ec783483474392ae93faaf207555e2"
+#export LOCAL_SONARR_URI="http://192.168.1.119:8989"
+#export LOCAL_SONARR_API_KEY="d6ebc752f89343059af88d38bb64aa9a"
